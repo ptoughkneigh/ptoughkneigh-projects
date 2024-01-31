@@ -1,0 +1,9 @@
+h1 {
+    color: bisque;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+body{
+    background-color: black;
+}
