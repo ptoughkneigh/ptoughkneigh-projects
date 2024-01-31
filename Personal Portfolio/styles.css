@@ -1,9 +1,20 @@
+* {
+    color: white;
+}
 h1 {
-    color: bisque;
+    color: bisque !important;
+    font-family: 'Montserrat';
+    font-size: 275%;
     justify-content: center;
     align-items: center;
     display: flex;
 }
 body{
-    background-color: black;
+    background-color: #231F20;
+}
+footer{
+    color: blueviolet;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
