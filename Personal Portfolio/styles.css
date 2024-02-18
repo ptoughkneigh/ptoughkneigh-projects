@@ -1,6 +1,13 @@
+:root {
+    --aggiemaroon: #500000;
+    --testcolor: hsla(167, 44%, 68%, 0.771);
+    --softblack: #231F20;
+}
+
 * {
     color: white;
 }
+
 h1 {
     color: bisque !important;
     font-family: 'Montserrat';
@@ -10,11 +17,44 @@ h1 {
     display: flex;
 }
 body{
-    background-color: #231F20;
+    background-color: var(--softblack);
 }
+
 footer{
-    color: blueviolet;
+    font-size: 2rem;
+    color: navy;
+    border: solid white 1px;
+    background-color: teal;
     justify-content: center;
     align-items: center;
     display: flex;
+}
+
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    text-transform: lowercase;
+    height: 300px;
+    flex: 1;
+    padding: 10px;
+}
+.column{
+    border: solid var(--aggiemaroon) 3.5px;
+    width: 300px;
+    border-radius: 3.5%;
+}
+
+.column button{
+    background-color: var(--aggiemaroon);
+}
+
+.main-list{
+    background-color: var(--testcolor);
+}
+
+*{
+    font-family: Fira Code, sans-serif;
 }
